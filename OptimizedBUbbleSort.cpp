@@ -17,3 +17,12 @@ vector <int> optimizedBubbleSort(vector<int> v){
     }
     
 }
+
+int main(){
+    int arr[]={-1,6,4,3,7,8,-7};
+    int n=sizeof(arr)/sizeof(int);
+    bubble_sort(arr, n);
+    for(int i=0;i<n;i++){
+        cout<<arr[i]<<", ";
+    }
+}
